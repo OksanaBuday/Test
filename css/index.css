@@ -1,0 +1,82 @@
+*{
+    max-width: 840px;
+    margin: 0 auto;
+}
+header{
+    background-image: url("../img/background.jpg");
+     background-position: center center;
+    background-size: cover;
+    height: 267px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .main{
+    margin-top: 19px;
+    margin-bottom: 14px;
+    
+     display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.photo_phone img {
+    width: 383px;
+    margin-left: 28px;
+    margin-right: 19px;
+    display: flex;
+}
+.main_info h1{
+    font-size: 21px;
+    margin-right: 90px;
+   
+}
+.main_info p{
+    font-size: 14px;
+    margin-right: 38px;
+     margin-top: 18px;
+    margin-bottom: 15px;
+    
+}
+#btn  {
+    height: 28px;
+    color: white;
+    background-color: #da4137;
+    background: linear-gradient ( #da4137 30%);
+}
+.efficiency{
+    margin-top: 23px;
+    margin-bottom: 47px;
+    /*display: flex;*/
+    /*flex-direction:column;*/
+}
+.efficiency h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+/*    *Tahoma/*/
+}
+.efficiency p {
+    font-size: 14px;
+    /**Time/*/
+}
+.types_of_strategy img{
+    height: 44px;
+    margin-right: 10px;
+}
+.types_of_strategy{
+    margin-left: 5px;
+    margin-right: 12px;
+    display: flex;
+    /*flex-direction:row;*/
+    justify-content:space-between;
+}
+span  .text {
+    font-size: 14px;
+    align-items:flex-start;
+    justify-content:flex-start;
+    
+    /*Italic*/
+}
+.attendance{
+    margin-right: 75px;
+}
