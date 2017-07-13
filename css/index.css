@@ -6,43 +6,48 @@ header{
     background-image: url("../img/background.jpg");
      background-position: center center;
     background-size: cover;
-    height: 267px;
+    height: 270px;
      display: flex;
     align-items: center;
     justify-content: center;
 }
  .main{
     margin-top: 19px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     
      display: flex;
     justify-content: flex-end;
     align-items: flex-start;
 }
 .photo_phone img {
-    width: 383px;
+    width: 380px;
     margin-left: 28px;
-    margin-right: 19px;
+    margin-right: 20px;
     display: flex;
-    box-shadow: 1px 1px 1px 1px #7c7c7c;
+    box-shadow: 0 0 1em  #7c7c7c;
 }
 .main_info h1{
     font-size: 21px;
     margin-right: 90px;
+     margin-bottom: 15px;
    
 }
-.main_info p{
+.main_info p {
     font-size: 14px;
-    margin-right: 38px;
-     margin-top: 15px;
-    margin-bottom: 15px;
+     color: grey;
+    margin-right: 40px;
+    margin-bottom: 20px;
     
 }
 #btn  {
+    font-size: 13px;
+    width:115px;
     height: 28px;
     color: white;
-    border-bottom: none;
-    background: -moz-linear-gradient(#cc3333 #da4137);
+    border: none;
+    border-radius: 3px;
+    -ms-border-radius: 3px;
+    background: -moz-linear-gradient(#cc3333, #da4137);
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#cc3333), to(#da4137));
 }
 .efficiency{
@@ -54,16 +59,14 @@ header{
     font-size: 18px;
     margin-bottom: 10px;
     display: flex;
-/*    *Tahoma/*/
 }
 .efficiency p {
     font-size: 14px;
-    /**Time/*/
+     color: grey;
 }
 
 .types_of_strategy{
     margin-left: 10px;
-    /*margin-right:34px;*/
     margin-bottom: 44px;
    overflow:hidden;
    display: flex;
@@ -93,11 +96,12 @@ header{
 
 .all_info h2 {
     font-size: 18px;
-    margin-bottom: 10px; 
+    margin-bottom: 5px; 
     /*Tahoma*/
     
 }
 .all_info p {
     font-size: 14px;
+    color: grey;
     margin-bottom: 25px;
 }
