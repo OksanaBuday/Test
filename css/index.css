@@ -24,6 +24,7 @@ header{
     margin-left: 28px;
     margin-right: 19px;
     display: flex;
+    box-shadow: 1px 1px 1px 1px #7c7c7c;
 }
 .main_info h1{
     font-size: 21px;
@@ -33,21 +34,21 @@ header{
 .main_info p{
     font-size: 14px;
     margin-right: 38px;
-     margin-top: 18px;
+     margin-top: 15px;
     margin-bottom: 15px;
     
 }
 #btn  {
     height: 28px;
     color: white;
-    background-color: #da4137;
-    background: linear-gradient ( #da4137 30%);
+    border-bottom: none;
+    background: -moz-linear-gradient(#cc3333 #da4137);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#cc3333), to(#da4137));
 }
 .efficiency{
     margin-top: 23px;
     margin-bottom: 47px;
-    /*display: flex;*/
-    /*flex-direction:column;*/
+
 }
 .efficiency h2{
     font-size: 18px;
@@ -59,24 +60,44 @@ header{
     font-size: 14px;
     /**Time/*/
 }
-.types_of_strategy img{
-    height: 44px;
-    margin-right: 10px;
-}
+
 .types_of_strategy{
-    margin-left: 5px;
-    margin-right: 12px;
-    display: flex;
-    /*flex-direction:row;*/
-    justify-content:space-between;
+    margin-left: 10px;
+    /*margin-right:34px;*/
+    margin-bottom: 44px;
+   overflow:hidden;
+   display: flex;
+   flex-direction:row;
+  justify-content: space-between;
 }
-span  .text {
+.types_of_strategy img{
+    height: 40px;
+    margin-right: 10px;
+   width:70px
+   display:inline-block;
+   vertical-align:middle;
+   
+}
+.text  {
     font-size: 14px;
-    align-items:flex-start;
-    justify-content:flex-start;
-    
-    /*Italic*/
+   
+    width:90%;
+   margin-right:-100px;
+   padding-right:100px;
+   display:inline-block;
+   vertical-align:middle;
+   box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
 }
-.attendance{
-    margin-right: 75px;
+
+.all_info h2 {
+    font-size: 18px;
+    margin-bottom: 10px; 
+    /*Tahoma*/
+    
+}
+.all_info p {
+    font-size: 14px;
+    margin-bottom: 25px;
 }
