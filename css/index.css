@@ -1,47 +1,50 @@
-*{
+* {
     max-width: 840px;
     margin: 0 auto;
 }
-header{
+
+header {
     background-image: url("../img/background.jpg");
-     background-position: center center;
+    background-position: center center;
     background-size: cover;
     height: 270px;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
- .main{
+
+.main {
     margin-top: 19px;
     margin-bottom: 16px;
-    
-     display: flex;
+    display: flex;
     justify-content: flex-end;
     align-items: flex-start;
 }
+
 .photo_phone img {
     width: 380px;
     margin-left: 28px;
     margin-right: 20px;
     display: flex;
-    box-shadow: 0 0 1em  #7c7c7c;
+    box-shadow: 0 0 0.5em #7c7c7c;
 }
-.main_info h1{
+
+.main_info h1 {
     font-size: 21px;
     margin-right: 90px;
-     margin-bottom: 15px;
-   
+    margin-bottom: 15px;
 }
+
 .main_info p {
     font-size: 14px;
-     color: grey;
+    color: grey;
     margin-right: 40px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 25px;
 }
-#btn  {
+
+#btn {
     font-size: 13px;
-    width:115px;
+    width: 115px;
     height: 28px;
     color: white;
     border: none;
@@ -50,56 +53,56 @@ header{
     background: -moz-linear-gradient(#cc3333, #da4137);
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#cc3333), to(#da4137));
 }
-.efficiency{
+
+.efficiency {
     margin-top: 23px;
     margin-bottom: 47px;
-
 }
-.efficiency h2{
+
+.efficiency h2 {
     font-size: 18px;
     margin-bottom: 10px;
     display: flex;
 }
+
 .efficiency p {
     font-size: 14px;
-     color: grey;
+    color: grey;
 }
 
-.types_of_strategy{
+.types_of_strategy {
     margin-left: 10px;
     margin-bottom: 44px;
-   overflow:hidden;
-   display: flex;
-   flex-direction:row;
-  justify-content: space-between;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.types_of_strategy img{
+
+.types_of_strategy img {
     height: 40px;
     margin-right: 10px;
-   width:70px
-   display:inline-block;
-   vertical-align:middle;
-   
+    /*width: 70px display: inline-block;*/
+    vertical-align: middle;
 }
-.text  {
+
+.text {
     font-size: 14px;
-   
-    width:90%;
-   margin-right:-100px;
-   padding-right:100px;
-   display:inline-block;
-   vertical-align:middle;
-   box-sizing:border-box;
-   -moz-box-sizing:border-box;
-   -webkit-box-sizing:border-box;
+    width: 90%;
+    margin-right: -100px;
+    padding-right: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .all_info h2 {
     font-size: 18px;
-    margin-bottom: 5px; 
-    /*Tahoma*/
-    
+    margin-bottom: 5px;
 }
+
 .all_info p {
     font-size: 14px;
     color: grey;
